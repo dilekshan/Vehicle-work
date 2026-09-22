@@ -60,17 +60,19 @@
 }
 
 .login-panel {
-  display: grid;
-  place-items: center;
-  padding: 48px clamp(24px, 6vw, 84px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 48px clamp(28px, 6vw, 84px);
   background: transparent;
 }
 
 .login-form-wrap {
   width: min(100%, 410px);
-  padding: 38px;
+  margin-left: auto;
+  padding: 25px;
   border: 1px solid rgba(255, 255, 255, 0.35);
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(180, 180, 209, 0.94);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
 }
 
