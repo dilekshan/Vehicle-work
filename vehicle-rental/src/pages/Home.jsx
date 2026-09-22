@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
-import heroImage from '../assets/image/OIP (8).webp';
 import { Link } from 'react-router-dom';
 import { getVehicles } from '../api/client';
+import homeImage from '../assets/image/ChatGPT Image Sep 22, 2026, 12_12_59 PM.png';
 
 function Home() {
   const [vehicles, setVehicles] = useState([]);
@@ -17,7 +17,7 @@ function Home() {
     <section
       className="home-hero"
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(8, 15, 25, 0.9) 0%, rgba(8, 15, 25, 0.62) 42%, rgba(8, 15, 25, 0.2) 100%), url("${heroImage}")`,
+        backgroundImage: `linear-gradient(90deg, rgba(7, 26, 43, 0.88), rgba(7, 26, 43, 0.38)), url("${homeImage}")`,
       }}
     >
       <div className="home-hero__content container">
